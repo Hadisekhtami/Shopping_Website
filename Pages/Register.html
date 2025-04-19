@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Css/Style.css">
+        <link rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+            integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../Css/Register.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <title> ثبت نام | فروشگاه می پال</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="reg-box" style="background:balck">
+                <h2 class="h2 fw-bolder" style="color:#002379"> عضویت در می
+                    پال</h2>
+
+                <form action="#" method="POST" name="myForm"
+                    onsubmit="return validateform()">
+                    <div class="input-group">
+                        <label for="username"><i
+                                class="fa fa-user text-white"><span
+                                    class="fw-bolder mx-1"> نام
+                                    کاربری</i></span> </label>
+                        <input type="text" class="rounded fw-bolder" name="user"
+                            placeholder="نام کاربری را وارد کنید">
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="email"><i
+                                class="fa fa-envelope text-white"><span
+                                    class="fw-bolder mx-1">ایمیل</i></span></label>
+                        <input type="email" class="rounded fw-bolder"
+                            name="email" placeholder="Example@gmail.com"
+                            required>
+                    </div>
+                    <div class="input-group mt-2">
+                        <label for="password"><i
+                                class="fa fa-lock text-white"><span
+                                    class="fw-bolder mx-1"> رمز عبور </i></span>
+                        </label>
+                        <input type="password" class="rounded fw-bolder"
+                            name="password" placeholder="رمز عبور را وارد کنید"
+                            required>
+                    </div>
+                    <input type="submit" value="ثبت نام" name="register_btn"
+                        class="btn btn-register  w-75" style="font-size:1.2rem">
+                    <div class=" mt-3 text-center">
+                        <a href="./Login.html" type="submit"
+                            class="text-decoration-none  fw-bolder"
+                            style="color:#002379">ثبت نام کرده ام </a>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+        <script>  
+    function validateform() {  
+
+        var name = document.myForm.user.value;  
+        var password = document.myForm.password.value;  
+  
+        if (name == null || name == "") {  
+            Swal.fire({
+                icon: "error",
+                text: "نام کاربری را وارد کنید!",
+                showConfirmButton: false,
+                timer: 1500
+            });
+            return false;  
+        } else if (password.length < 6) {
+            Swal.fire({
+                icon: "error",
+                text: "رمز عبور باید حداقل6 کاراکتر باشد",
+                showConfirmButton: false,
+                timer: 1500
+            });
+            return false;
+        }
+
+    return true; // تغییر این قسمت
+      }
+</script>
+
+    </body>
+
+</html>
