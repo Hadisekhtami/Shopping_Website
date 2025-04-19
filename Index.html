@@ -1,0 +1,985 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="stylesheet" href="Css/flickity.css">
+  <link rel="stylesheet" href="Css/flickity-slider.css">
+  <title> فروشگاه اینترنتی بانوان| می پال</title>
+  <style>
+
+
+
+    </style>
+</head>
+<body dir="rtl" class="bg-light">
+ 
+<!-- Top Nav Menu -->
+
+  <div class="container-fluid bg-top-nav  custome-nav-fix">
+    <div class="row d-flex justify-content-around align-items-center  ">
+      <div class="col ">
+      <a href="./Index.html">  <img src="./Image/Logo.png" class="logo"></a>
+      </div>
+      <!-- searchbar -->
+      <div class="col-md-auto ">
+        <nav class="nav top-nav mx-5 d-flex justify-content-center align-items-center ">
+          <div class="search-box left-search ">
+            <form method="post"  action="">
+              <button class="btn-search" name="submit_search"><i class="fas fa-search " ></i></button>
+              <input type="text" class="input-search" name="search" placeholder="نام محصول  را وارد کنید" >
+             </form>
+          </div>
+        
+        </nav>
+      </div>
+      
+     
+
+      <!-- Login_Register_btn -->
+      <div class="col-md-auto  left-icon">
+       
+            <a class="nav-link text-white  " href="./Pages/Register.html"><i class="fa fa-sign-in" ><span class="mx-2 fw-light ">ثبت نام</span></i></a></a>
+      </div>
+
+      <!-- Shop_cart -->
+      <div class="col-md-auto  left-icon">
+        <div class="dropdown ">
+        <a class="btn btn-link  text-white  "  href="Pages/cart..html"><i class="fa fa-shopping-bag mx-1"><span class="fw-light mx-2 ">سبد خرید</span> </i><a class=" dropdown-toggle text-white  mx-2 " data-bs-toggle="dropdown" ></a></a> 
+          <ul class="dropdown-menu basket mt-2 bg-light ">
+            <a class="dropdown-item  p-1  d-flex justify-content-around" href="Pages/Product-detail-child.html"> <img class="img-thumbnail"src="./Image/child.jpg">
+              <ul class="list-unstyled">
+                <li>  کتانی اسپرت رنگین کمان  </li>
+                <li>780000 تومان</li>
+              </ul>
+              <button type="button" class="close btn text-danger fw-bolder" data-dismiss="modal" aria-label="close">
+                <span aria-hidden="true" >&times;</span>
+              </button>
+            </a>
+            <a class="dropdown-item  p-1  d-flex justify-content-around" href="Pages/Product-detail-accessory.html"> <img class="img-thumbnail"src="./Image/j7.jpg">
+              <ul class="list-unstyled">
+                <li >  گوشواره نگینی لاله گوش</li>
+                <li>304000 تومان</li>
+              </ul>
+              <button type="button" class="close btn text-danger fw-bolder" data-dismiss="modal" aria-label="close">
+                <span aria-hidden="true" >&times;</span>
+              </button>
+            </a>
+            <a class="dropdown-item  p-1 d-flex justify-content-around" href="Pages/Product-details-young.html"> <img class="img-thumbnail"src="./Image/b4.jpg">
+              <ul class="list-unstyled ">
+                <li >  کیف زنانه پاپیونی </li>
+                <li >678000 تومان</li>
+              </ul>
+              <button type="button" class="close btn text-danger fw-bolder " data-dismiss="modal" aria-label="close" > 
+                <span  aria-hidden="true" >&times;</span>
+              </button>
+            </a>
+            <hr>
+                <span class="mx-2  text-success">   جمع کل  </spna> <spna style="margin-right:95px;color:black" >304000 تومان</span>
+                
+             
+            </a>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+   
+    <!-- Bottom_nav -->
+    <nav class="custom-nav w-100 position-relative">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg  navbar-dark custom-navbar">
+            <a class="navbar-brand  mx-4 mt-2" href="./Index.html">فروشگاه اینترنتی می پال </a>
+            <button class="navbar-toggler custom-navbar-toggler " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+  
+            <div class="collapse navbar-collapse mt-4 rounded" id="navbarSupportedContent">
+              <ul class="navbar-nav custome-navbar-nav mr-auto ">
+              <li class="nav-item  ">
+                  <a class="nav-link    mx-3" href="./Index.html"  style="font-size: 23px;">
+                    صفحه اصلی
+                  </a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white  mx-3" href="#" role="button" data-bs-toggle="dropdown">
+                    کودکانه
+                  </a>
+                  <div class="dropdown-menu dropdown-image rounded border-0 shadow  w-100 " style="background-color:#e9ecef;margin-top:35px" aria-labelledby="navbarDropdown">
+                    <img class="d-none d-xl-block rounded mx-1" style="width: 110px;"  src="./Image/outfit-child.jfif">
+                    <div class="container-fluid " >
+                      <div class="row w-100 ">
+                        <div class="col-sm-12 col-md-3">
+                          <ul class="nav flex-column ">
+                            <li class="nav-item">
+                              <a class="dropdown-item text-black fw-bolder " href="Pages/Child.html">لباس کودک</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="dropdown-item text-black fw-bolder" href="Pages/Child.html">کفش کودک </a>
+                            </li>
+                          
+                          </ul>
+                        </div>
+                        
+                      </div>
+                    </div>
+  
+                  </div> 
+                </li>
+              
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white  mx-3" href="#" role="button" data-bs-toggle="dropdown">
+  
+                    اکسسوری
+                  </a>
+                  <div class="dropdown-menu dropdown-image rounded border-0 shadow  w-100 " style="background-color: #e9ecef;margin-top:35px" aria-labelledby="navbarDropdown">
+                    <img class="d-none d-xl-block rounded mx-1" style="width: 120px;" src="./Image/accessor.png">
+                    <div class="container-fluid  ">
+                      <div class="row w-100">
+                        <div class="col-sm-12 col-md-3">
+                          <ul class="nav flex-column ">
+                            <li class="nav-item">
+                              <a class="dropdown-item text-black fw-bolder " href="Pages/Accessory.html">نیم ست  </a></li>
+                            <li class="nav-item">
+                              <a class="dropdown-item text-black fw-bolder " href="Pages/Accessory.html">عینک آفتابی</a>
+                            </li>
+                           
+                          </ul>
+                        </div>
+                    
+                      </div>
+                    </div>
+  
+                  </div>
+                    
+                </li>
+              
+                 
+                <li style="visibility: hidden;font-size:1.3rem" class="nav-item dropdown visiblee mt-3 mx-3">
+                <a class="nav-link text-white  " href="Pages/cart..html"><i class="fa fa-shopping-bag" ><span class="mx-2  px-2 fw-light">سبد خرید</span></i></a>
+                </li>
+
+                <li style="visibility: hidden;font-size:1.3rem" class="nav-item dropdown visiblee mt-3 mx-3">
+                 
+                          <!-- <a class="nav-link text-white  " href="#"><i class="fa fa-sign-in" ><span class="mx-2 ">خروج</span></i></a> -->
+                       
+                          <a class="nav-link text-white  " href="#"><i class="fa fa-user" ><span class="mx-2  px-2 fw-light">ورود / ثبت نام</span></i></a>
+                             
+                </li>
+              </ul> 
+            </div>
+               
+               
+            
+            </div>
+    </nav>
+  </div>
+
+<!-- END Top Nav Menu -->
+
+
+ <!-- Main_Slider-->
+  <div class="container-fluid bg-white p-5 slider ">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-lg-5 ">
+          <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#"><img class="d-block w-100 rounded" src="./Image/5.jpg" alt="First slide"></a>
+                <div class=" d-none d-md-block">
+                <p class="carousel-caption shadow  rounded  p-1" style="background-color: #434538;color:black;"> ☻ هر چی بخوای اینجا هست</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#"> <img class="d-block w-100 rounded" src="./Image/10.jpg" alt="Second slide">
+                </a>
+                <div class=" d-none d-md-block">
+                <p class="carousel-caption shadow  rounded  p-1" style="background-color: #738694;color:rgb(13, 1, 45);"> ☻ هر چی بخوای اینجا هست</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#"> <img class="d-block w-100 rounded" src="./Image/9..jpg" alt="Third slide"></a>
+                <div class=" d-none d-md-block">
+                  <p class="carousel-caption shadow  rounded  p-1" style="background-color: #254316;color:black;">☻ هر چی بخوای اینجا هست</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Middle_pic_slider -->
+        <div class="col-sm-12 col-md-6 col-lg-3 custom-col-lg-3  mt-cu-pic">
+          <a href="#"> <img src="./Image/24.jpg" class="img-fluid rounded" alt></a>
+        </div>
+        <!-- Left_pic_slider -->
+        <div class="col-sm-12 col-md-6 col-lg-3 custom-col-lg-3 left-side d-flex flex-column justify-content-between mt-cu-pic">
+          <a href="#"><img src="./Image/16.jpg" class="img-fluid  w-75 rounded" alt></a>
+          <a href="#"><img src="./Image/b6.jpg" class="img-fluid w-75 rounded  mb-1" alt></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- shipping nav -->
+    <div class="container-fluid shipping rounded shadow mt-5 d-flex justify-items-center justify-content-center  ">
+      <div class="row">
+        <div class="col  shipping-wrapper mx-5 ">
+          <div class="content-shipping" ><img src="Image/free-delivery.png" alt="Free-delivery"  class=" mx-4 mt-2 ">
+            <p class=" text-nowrap text-white shipping-text mx-2">
+              ارسال رایگان 
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="col  shipping-wrapper mx-5 ">
+          <div class="content-shipping" ><img src="Image/high_quality.png" alt="High_quality"  class=" mx-4 mt-2 ">
+            <p class=" text-nowrap text-white shipping-text mx-2">
+             تضمین کیفیت
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="col shipping-wrapper mx-5">
+          <div class="content-shipping"><img src="Image/package.png" alt="Return_product" class=" mx-4 mt-2" >
+            <p class=" text-nowrap text-white shipping-text mx-2">
+              امکان بازگشت کالا
+            </p>
+          </div>
+        </div>
+
+        <div class="col shipping-wrapper mx-5">
+          <div class="content-shipping"> <img src="Image/cash-on-delivery.png" alt="Cash_on delivery" class=" mx-4 mt-2">
+            <p class=" text-nowrap text-white shipping-text mx-2">
+              پرداخت درب منزل
+            </p>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <!-- Ads_offer -->
+    <div class="container mt-5  ">
+      <div class="row  align-items-center p-3 mt-2">
+        <div class="col-sm-12 col-md-3 "><a href="./Pages/Accessory.html"><img src="Image/ads1.png" class="image-fluid w-100 mb-2"></a></div>
+        <div class="col-sm-12 col-md-6 "><a href="#"><img src="Image/ads2.png" class="image-fluid w-100 mb-2"></a></div>
+        <div class="col-sm-12 col-md-3 "><a href="#"><img src="Image/ads4.png" class="image-fluid w-100 mb-2"></a></div>
+      </div>
+    </div>
+  </div>
+<!--END  Slider-->
+
+
+  <!-- category -->
+  <section class="container wrapper-category mb-5  " >
+    <div class="row  px-2 ">
+      <hr class="style-eight mb-5">
+      <div class="col-sm-12 col-md-3 col-lg-2 mb-4  mt-2  category-h rounded">
+        <div class="d-flex justify-content-center align-items-center  ">
+          <div class="categories mx-1">
+            <a href="#"> <p class="mb-2  fw-bolder p-2"> کتونی دخترانه </p></a>
+            <!-- <p >کد 574</p> -->
+          </div>
+          <img src="./Image/27.webp" class="img-fluid w-50 mb-2  rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4  mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="Pages/Accessory.html"><p class="mb-2  fw-bolder p-2">عینک آفتابی</p></a>
+            <!-- <p>کد 841</p> -->
+          </div>
+          <img src="./Image/19.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4 mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+           <a href="#"><p class="mb-2  fw-bolder p-2"> کیف پاسپورتی</p></a> 
+            <!-- <p>کد 360</p> -->
+          </div>
+          <img src="./Image/b6.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4  mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="#"><p class="mb-2  fw-bolder p-2"> کفش   مجلسی </p>
+            </a>
+            <!-- <p>کد 452</p> -->
+          </div>
+          <img src="./Image/16.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4  mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="#">  <p class="mb-2  fw-bolder p-2">شلوار مازراتی</p>
+            </a>
+            <!-- <p>کد 745</p> -->
+          </div>
+          <img src="./Image/31.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4 mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+           <a href="Pages/Accessory.html"><p class="mb-2  fw-bolder p-2">نیم ست</p></a> 
+            <!-- <p>کد 541</p> -->
+          </div>
+          <img src="./Image/j9.jpg" class="img-fluid w-50 mb-2  rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4  mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="Pages/Child.html"><p class="mb-2  fw-bolder p-2">   لباس راحتی </p>
+            </a>
+            <!-- <p>کد 246</p> -->
+          </div>
+          <img src="./Image/16.webp" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4  mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="#">  <p class="mb-2  fw-bolder p-2">اسلیپر دخترانه</p> </a>
+            <!-- <p>کد 638</p> -->
+          </div>
+          <img src="./Image/33.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4 mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="#"> <p class="mb-2  fw-bolder p-2"> شال موهر</p>
+            </a>
+            <!-- <p>کد 103</p> -->
+          </div>
+          <img src="./Image/25.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4 mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="#"><p class="mb-2  fw-bolder p-2">   مانتو  کتی</p></a>
+            <!-- <p>کد 159</p> -->
+          </div>
+          <img src="./Image/style.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4 mt-2 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="#"> <p class="mb-2  fw-bolder p-2"> پالتو زنانه</p>
+            </a>
+            <!-- <p>کد 289</p> -->
+          </div>
+          <img src="./Image/11.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+      
+      <div class="col-sm-12 col-md-3 col-lg-2  mb-4 category-h rounded">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="categories mx-1">
+            <a href="Pages/Accessory.html"><p class="mb-2  fw-bolder p-2">  اکسسوری  </p></a>
+            <!-- <p>کد 123</p> -->
+          </div>
+          <img src="./Image/32.jpg" class="img-fluid w-50 mb-2 rounded-circle">
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- END category -->
+
+  <!-- special offers -->
+  <section class="container mt-5 ">
+    <div class="row">
+      <div class="col-sm-12 mt-2  ">
+        <nav>
+          <div class="nav nav-tabs cus-nav-tabs position-relative " id="nav-tab" role="tablist" style="direction: ltr;">
+            <p class="offer-title position-absolute px-2">پیشنهادات شگفت انگیز</p>
+            <a href="#nav-young"><button class="nav-link active" style="color:blueviolet;" id="tab1" data-bs-toggle="tab" data-bs-target="#nav-young" type="button" role="tab" aria-controls="nav-home" aria-selected="true">بزرگسال</button></a>
+            <a href="#nav-child"><button class="nav-link" id="tab2" data-bs-toggle="tab" data-bs-target="#nav-child"   type="button" role="tab" aria-controls="nav-profile" aria-selected="false">کودک</button></a>
+            <a href="#nav-acsesor"><button class="nav-link" id="tab2" data-bs-toggle="tab" data-bs-target="#nav-acsesor"   type="button" role="tab" aria-controls="nav-contact" aria-selected="false">اکسسوری</button></a>
+          </div>
+        </nav>
+
+        <div class="tab-content   " id="myTabContent">
+          <div class="tab-pane fade show active" id="nav-young">
+            <div class="container">
+              <div class="row  ">
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                  <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2 ">
+                    <div class="offer-product-image " style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/b3.jpg" alt="bags">
+                       <img class="image-fluid rounded second-img"  src="Image/b4.jpg" alt="bags">
+                    </div>
+                    <div class="offer-details my-4 px-3 "><a href="Pages/Product-details-young.html"   class=" fw-bolder">کیف  زنانه پاپیونی </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>840000 تومان</s><span>750000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap" > زمان <span class=" text-success  ">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/g1.jpg" alt="glass">
+                       <img class="image-fluid rounded second-img"  src="Image/g2.jpg" alt="glass">
+                    </div>
+                    <div class="offer-details my-4 px-3  "><a href="Pages/Accessory.html" class=" fw-bolder" > عینک آفتابی مردانه پولاریزه </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>290000 تومان</s><span>250000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap" > زمان <span class=" text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/s1.jpg" alt="scarf">
+                       <img class="image-fluid rounded second-img"  src="Image/s2.jpg" alt="scarf">
+                    </div>
+                    <div class="offer-details my-4 px-3  "><a href="#" class=" fw-bolder" >    شال زمستانی موهر </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder "><s>420000 تومان</s><span>380000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p  class="text-nowrap"> زمان <span class="text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class=" demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img "  src="Image/d1.jpg" alt="clothes">
+                       <img class="image-fluid rounded second-img  "  src="Image/d2.webp" alt="clothes">
+                    </div>
+                    <div class="offer-details my-4 px-3  "><a href="#" class=" fw-bolder" >     مانتو  بارانی     </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>825000 تومان</s><span>613000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap" > زمان <span class=" text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              
+              </div>
+            </div>
+
+          </div>
+          <div class="tab-pane fade show" id="nav-child">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-2 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                  <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/child.jpg" alt="shoe">
+                       <img class="image-fluid rounded second-img"  src="Image/child2.jpg" alt="shoe">
+                    </div>
+                    <div class="offer-details my-4 px-3 "><a href="Pages/Product-detail-child.html" class="text-decoration-none fw-bolder " >کتانی اسپرت رنگین کمان </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>999000 تومان</s><span>788000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap" > زمان <span class=" text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-2 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/child5.jpg" alt="clothes">
+                       <img class="image-fluid rounded second-img"  src="Image/child6.jpg" alt="clothes">
+                    </div>
+                    <div class="offer-details my-4 px-3  "><a href="Pages/Child.html" class="text-decoration-none fw-bolder" >    ست دو تیکه پسرانه </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>885000 تومان</s><span>925000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p  class="text-nowrap"> زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/child3.jpg" alt="clothes">
+                       <img class="image-fluid rounded second-img"  src="Image/child4.jpg" alt="clothes">
+                    </div>
+                    <div class="offer-details my-4 px-3  "><a href="Pages/Child.html" class="text-decoration-none fw-bolder" >    پیرهن پرنسسی دخترانه   </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder "><s> 2250000 تومان</s><span>998000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap" > زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class=" demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/child7.jpg" alt="clothes">
+                       <img class="image-fluid rounded second-img"  src="Image/child8.jpg" alt="clothes">
+                    </div>
+                    <div class="offer-details my-4 px-3  "><a href="Pages/Child.html" class="text-decoration-none fw-bolder" >       ست لباس راحتی پسرانه    </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder "><s>389000 تومان</s><span>245000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p  class="text-nowrap"> زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class=" demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade show " id="nav-acsesor">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-2 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                  <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/j1.jpg" alt="accessor">
+                       <img class="image-fluid rounded second-img"  src="Image/j2.jpg" alt="accessor">
+                    </div>
+                    <div class="offer-details my-4 px-3 "><a href="Pages/Product-detail-accessory.html" class="text-decoration-none fw-bolder" >  گوشواره  مارپیچی  </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>992000 تومان</s><span>597000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap"> زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-2 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                       <img class="image-fluid rounded frist-img"  src="Image/j3.jpg" alt="accessor">
+                       <img class="image-fluid rounded second-img"  src="Image/j4.jpg" alt="accessor">
+                    </div>
+                    <div class="offer-details my-4 px-3 "><a href="Pages/Accessory.html" class="text-decoration-none fw-bolder" >    گوشواره نگینی دخترانه </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>743000 تومان</s><span>526000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap"> زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class="demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                      <img class="image-fluid rounded frist-img"  src="Image/j7.jpg" alt="accessor">
+                      <img class="image-fluid rounded second-img"  src="Image/j8.jpg" alt="accessor">
+                    
+                    </div>
+                    <div class="offer-details my-4 px-3"><a  href="Pages/Accessory.html"  class="text-decoration-none fw-bolder" >      ست دو تیکه دستبند و گردنبند </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder "><s>1550000 تومان</s><span>988000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap"> زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class=" demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative mt-4 boxshadow-offer">
+                  <div  class="position-absolute after-expire" >
+                    <div  class="badge bg-danger offer-expire-text-inner" ></div>
+                  </div>
+                  <div  class="d-flex justify-content-around offer-blur mb-2">
+                    <div class="offer-product-image" style="text-align: center;">
+                      <img class="image-fluid rounded frist-img"  src="Image/j5.jpg" alt="accessor">
+                      <img class="image-fluid rounded second-img"  src="Image/j6.jpg" alt="accessor">
+                    </div>
+                    <div class="offer-details my-4 px-3"><a href="Pages/Accessory.html"  class="text-decoration-none fw-bolder" >       گردنبند دو لایه منگوله ای    </a>
+                      <div class="offer-rating mt-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+                 <div class="offer-price mt-2 fw-bolder"><s>458000 تومان</s><span>399000 تومان</span></div>
+                 <div class="count-down-number mt-1 ">
+                        <p class="text-nowrap"> زمان <span class="fw-bolder text-success">باقی مانده </span> تا پایان تخفیفات </p>
+                        <div id="demo" class=" demos mt-2 d-flex justify-content-center position-relative " dir="ltr" ></div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      
+       
+      </div>
+    </div>
+
+    
+    </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+<!--END special offers -->
+
+<!-- filick slider -->
+<div class="container mt-5  mb-5 position-relative " >
+  <p class="offer-title position-absolute d-none d-sm-block"> محبوب ترین ها</p>
+
+  <div class="row mb-5">
+    <div class="col-sm-12">
+    
+      <div class="carousel bg-light mt-5 position-relative"  data-flickity='{ "fullscreen": true, "lazyLoad": 2 ,"autoPlay": 1200}'>
+        <div class="col-sm-12 col-md-6  ">
+          <img src="./Image/Logo.png" class="logo-flick-left w-50" style="margin: 0px 140px;">
+        </div>
+        <div class="p-3">
+          <div class="card  cus-card" style="width: 15rem;" >
+            <img class="carousel-image rounded" data-flickity-lazyload="https://machiz.ir/files/products/79556/main_17084220319761.O1CN01NAggpm2CjAsjMzt0C_!!4064828509-0-cib.jpg.webp" />
+            <div class="card-body text-center">
+              <a href="#" class="card-link"><p class="mt-2 fw-bolder">کیف پاسپورتی زنانه شنل</p></a>
+              <s class="text-danger fw-bolder">497000 تومان </s>287000 تومان</a> <span class="badge badge-offer">10%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="p-3">
+          <div class="card cus-card" style="width: 15rem;" >
+            <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/77968/main_17053579337242.photo_5_2024-01-15_14-31-59.jpg.webp" />
+            <div class="card-body text-center">
+              <a href="Pages/Child.html" class="card-link"><p class="mt-2 fw-bolder">ست تابستانی پسرانه </p></a>
+              <s class="text-danger fw-bolder">797000 تومان </s>477000 تومان</a> <span class="badge badge-offer">10%</span>
+            </div>
+          </div>
+        </div>
+       
+        <div class="p-3">
+          <div class="card  cus-card" style="width: 15rem;" >
+            <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/77748/main_17051598142497.1705158176089.jpg.webp" />
+            <div class="card-body text-center">
+            <a href="Pages/Child.html" class="card-link"><p class="mt-2 fw-bolder">پیرهن پرنسسی دخترانه</p></a>
+             <s class="text-danger fw-bolder">497000 تومان </s>297500 تومان</a> <span class="badge badge-offer">10%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3">
+          <div class="card  cus-card" style="width: 15rem;" >
+            <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/77905/main_17053190673349.O1CN01pZyK8f1DlID79CqPG_!!2968900256-0-cib.jpg.webp" />
+            <div class="card-body text-center">
+            <a href="Pages/Child.html" class="card-link"><p class="mt-2 fw-bolder">ست سه تیکه لباس راحتی</p></a>
+             <s class="text-danger fw-bolder">697000 تومان </s>557000 تومان</a> <span class="badge badge-offer">10%</span>
+            </div>
+          </div>
+        </div>
+        
+       <div class="p-3">
+        <div class="card  cus-card" style="width: 15rem;" >
+          <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/78502/main_17059643409321.13458708284_1439022716.jpg.webp" />
+          <div class="card-body text-center">
+          <a href="Pages/Accessory.html" class="card-link"><p class="mt-2 fw-bolder">کیف فانتزی لوازم آرایش</p></a>
+            <s class="text-danger fw-bolder">497000 تومان </s>299000 تومان</a> <span class="badge badge-offer">10%</span>
+          </div>
+        </div>
+       </div>
+        
+       <div class="p-3">
+        <div class="card  cus-card" style="width: 15rem;" >
+          <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/79485/main_17083418201965.1708338985023.jpg.webp" />
+          <div class="card-body text-center">
+          <a href="#" class="card-link"><p class="mt-2 fw-bolder">کیف دخترانه لویی ویتون</p></a>
+          <s class="text-danger fw-bolder">497000 تومان </s>297500 تومان</a> <span class="badge badge-offer">10%</span>
+          </div>
+        </div>
+       </div>
+       
+       <div class="p-3">
+        <div class="card cus-card" style="width: 15rem;" >
+          <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/80050/main_17091599101416.O1CN01Bchqus2JPfQOytAjP_!!2206713169414-0-cib.jpg.webp" />
+          <div class="card-body text-center">
+          <a href="Pages/Child.html" class="card-link"><p class="mt-2 fw-bolder">صندل مرواریدی دخترانه</p></a>
+          <s class="text-danger fw-bolder">497000 تومان </s>297500 تومان</a> <span class="badge badge-offer">10%</span>
+          </div>
+        </div>
+       </div>
+      
+       <div class="p-3">
+        <div class="card  cus-card" style="width: 15rem;" >
+          <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/79273/main_17080237841408.1708020836683.jpg.webp" />
+          <div class="card-body text-center">
+            <a href="Pages/Child.html" class="card-link"><p class="mt-2 fw-bolder">ست بچگانه ویسی</p></a>
+            <s class="text-danger fw-bolder">497000 تومان </s>297500 تومان</a> <span class="badge badge-offer">10%</span>
+          </div>
+        </div>
+       </div>
+     
+        <div class="p-3">
+          <div class="card  cus-card" style="width: 15rem;" >
+            <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/78473/main_17059414828175.O1CN01fFEW9Y1sCqdlR25aN_!!2206797175731-0-cib.jpg.webp" />
+            <div class="card-body text-center">
+              <a href="#" class="card-link"><p class="mt-2 fw-bolder"> کیف فانتری لوازم آرایش </p></a>
+              <s class="text-danger fw-bolder">197000 تومان </s>87500 تومان</a> <span class="badge badge-offer">10%</span>
+            </div>
+          </div>
+        </div>
+       
+        <div class="p-3">
+          <div class="card  cus-card" style="width: 15rem;" >
+            <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/78751/main_17072483073683.1707246284637.jpg.webp" />
+            <div class="card-body text-center">
+              <a href="#" class="card-link"><p class="mt-2 fw-bolder"> اسلیپر دخترانه</p></a>
+              <s class="text-danger fw-bolder">297000 تومان </s>197500 تومان</a> <span class="badge badge-offer">10%</span>
+            </div>
+          </div>
+        </div>
+
+       <div class="p-3">
+        <div class="card  cus-card" style="width: 15rem;" >
+          <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/77746/main_17051595609860.1705158176144.jpg.webp" />
+          <div class="card-body text-center">
+            <a href="Pages/Child.html" class="card-link"><p class="mt-2 fw-bolder"> پیرهن پرنسسی شب یلدا</p></a>
+            <s class="text-danger fw-bolder">997000 تومان </s>637500 تومان</a> <span class="badge badge-offer">10%</span>
+          </div>
+        </div>
+       </div>
+
+      <div class="p-3">
+        <div class="card cus-card" style="width: 15rem;" >
+          <img class="carousel-image rounded"data-flickity-lazyload="https://machiz.ir/files/products/79101/main_17078149244502.O1CN01qvNe8z1K8Y6UU0tfx_!!2217038051119-0-cib.jpg.webp" />
+          <div class="card-body text-center">
+            <p class="card-text">
+              <a href="#" class="card-link"> <p class="mt-2 fw-bolder">کفش مجلسی زنانه</p></a>
+              <s class="text-danger fw-bolder">797000 تومان </s>547500 تومان</a> <span class="badge badge-offer">10%</span>
+             
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6  ">
+        <img src="./Image/Logo.png" class="logo-flick-right w-50 " style="margin: 0px 140px;">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--END filick slider -->
+
+<!-- banner-offer -->
+<div class="container mt-5 banner-sec text-center bg-light mb-5">
+  <div class="row">
+    <div class="col-sm-12 col-md-3 banner-hover mb-2" >
+      <a href="#" ><img class="image-fluid w-75 rounded " src="./Image/banner1.png" alt=""></a>
+
+    </div>
+    <div class="col-sm-12 col-md-3 banner-hover mb-2">
+      <a href="#"><img  class="image-fluid  w-75 rounded" src="./Image/banner2.png" alt=""></a>
+    </div>
+    <div class="col-sm-12 col-md-3 banner-hover mb-2" >
+      <a href="#" ><img  class="image-fluid  w-75 rounded" src="./Image/banner3.jpg" alt=""></a>
+    </div>
+    <div class="col-sm-12 col-md-3 banner-hover  mb-2">
+      <a href="#" ><img class="image-fluid w-75 rounded " src="./Image/banner4.png" alt=""></a>
+
+    </div>
+  </div>
+</div>
+<!-- END banner-offer -->
+
+<!-- Footer -->
+<footer class="container-fluid text-center bg-footer">
+  <div class="row ">
+     <section class="container ">
+        <div class="row py-4  mt-3 bg-light rounded shadow ">
+          <div class="col-sm-12 col-md-6 news-1 mt-4 ">
+             <h6> با عضویت در خبرنامه</h6>
+             <p>از <span class="text-success">تخفیف 20%</span>  بهره مند شوید</p>
+          </div>
+
+          <div class="col-sm-12 col-md-6 news-2 mt-4">
+            <p class="">  تمام حقوق اين وب‌سايت نیز برای  (فروشگاه آنلاین می پال) است. </p>
+          </div>
+
+         
+        </div>
+     </section>
+
+   
+     <section class="container down-footer ">
+      <div class="row p-3 mt-5">
+       <div class="col-sm-4 col-md-4 "><h5 class="fw-bolder text-balck">می پال</h5>
+         <ul class="nav flex-column footer-nav mt-2">
+           <li class="nav-item"><a href="Pages/About_us.html" class="nav-link fw-bolder">درباره  ما</a> </li>
+           <li class="nav-item"><a href="Pages/Blog.html" class="nav-link fw-bolder"> بلاگ</a></li>
+         </ul>
+       </div>
+       <div class="col-sm-4 col-md-4 mb-4 "><h5 class="fw-bolder text-balck">راهنمای خرید</h5>
+         <ul class="nav flex-column footer-nav mt-2">
+           <li class="nav-item"><a href="Pages/Rules-website.html" class="nav-link fw-bolder">  شرایط مرجوعی و قوانین </a> </li>
+           <li class="nav-item"><a href="Pages/delivery.html" class="nav-link fw-bolder">روش های ارسال و هزینه ها  </a></li>
+         </ul>
+       
+       </div>
+ 
+       <div class="col-sm-4 col-md-4 mb-4"><h5 class="fw-bolder text-balck">اطلاعات تماس</h5>
+         <div class="about-us mt-2 footer-nav ">
+           <p class="footer-text fw-bolder" >پشتیبانی 24 ساعته</p>
+           <P class="footer-text fw-bolder">شماره تماس :0218840259</P>
+           <p class="footer-text fw-bolder"> آدرس: تهران - ملاصدار</p>
+         </div>
+         <div class="social-icon d-flex justify-content-center justify-items-center">
+           <ul class="nav">
+             <li class="nav-item"><a href="#" class="nav-link text-decoration-none"><i class="fa-brands fa-square-instagram insta"></i></a></li>
+             <li class="nav-item"><a href="#" class="nav-link text-decoration-none"><i class="fa-brands fa-telegram tel"></i></a></li>
+             <li class="nav-item"><a href="#" class="nav-link text-decoration-none"><i class="fa-brands fa-square-whatsapp whatsapp"></i></a></li>
+           </ul>
+         </div>
+         
+       </div>
+      </div>
+      
+    </section>
+
+      <section class="container down-footer ">
+        <div class="row ">
+         <div class="col-6 col-sm-6 col-md-3 mb-4 ">
+           <img class="img-responsive" style="width: 110px;" src="./Image/Trust_Icon_1.png">
+         </div>
+         <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <img class="img-responsive " style="width: 110px;" src="./Image/Trust_Icon_2.png">
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <img class="img-responsive" style="width: 110px;" src="./Image/Trust_Icon_3.png">
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 mb-4">
+          <img class="img-responsive" style="width: 110px;" src="./Image/samandehi.svg">
+        </div>
+        </div>
+      </section>
+ 
+  </div>
+</footer>
+<!--END  Footer -->
+
+  <script type="text/javascript" src="./js/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.slim.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"crossorigin="anonymous"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/validate.js"></script>
+</body>
+
+</html>
