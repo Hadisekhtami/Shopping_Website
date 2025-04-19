@@ -1,0 +1,109 @@
+
+.sort
+{
+    font-size: 1.2rem!important;
+
+}
+.detail-product
+{
+ font-size: 1.3rem!important;
+
+}
+.product-detail-title .fa-heart
+{
+color: red;
+}
+.product-detail-title .fa-thumbs-up
+{
+color: #4caf50;
+vertical-align: -2px;
+margin-left: 5px;
+font-size: 1.1rem;
+
+}
+.product-detail-title .fa-thumbs-down
+{
+color: #ef4056;
+vertical-align: -3px;
+margin-left: 5px;
+font-size: 1.1rem;
+
+}
+
+.title-tab.active
+{
+border-top: 3px solid rgb(117, 0, 89)!important;
+}
+
+.tab-product ul li .key
+{
+    background-color: #f7f7f7;
+    flex: 0 0 35%;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+
+}
+.tab-product ul li .value
+{
+    background-color: #f7f7f7;
+    flex: 0 0 60%;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+
+}
+.tab-product h5
+{
+font-size: 1.5rem!important;
+}
+
+.tab-content div h5 i
+{
+    vertical-align: -2px;
+    margin-left: 5px;
+}
+
+.media-body h5{
+    font-size: 1.1rem;
+}
+.media-body p{
+    font-size: 1.2rem;
+    line-height:2em;
+    text-align: justify;
+}
+.cus-nav-tabpane .title-tab
+{
+    font-size: 1.3rem;
+}
+.add-comment p
+{
+font-size: 18px;
+}
+.add-comment p i
+{
+
+vertical-align: -6px;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 600px)
+{
+    .big
+    {
+        margin-left: 55px!important;
+
+    }
+  .zoom{
+display: flex !important;;
+flex-direction: row !important;
+float: right !important;
+padding-top: 15px;
+ }   
+ .zoom li {
+    margin-left: 3px
+
+ };
+}
+
+

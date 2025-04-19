@@ -1,0 +1,28 @@
+.cus-card
+{
+    border: none;
+    border-radius: 0;
+}
+.cus-card:hover
+{
+    
+   z-index: 1;
+   box-shadow: 0 0 10px 3px #e9e0e0;
+  
+}
+.badge-offer
+{
+    color: white;
+    background-color: #dc3545;
+    border-radius: 100%;
+    margin: 3px;
+}
+
+
+@media screen and (max-width:990px)
+{
+    .logo-flick-left,.logo-flick-right
+{
+margin-top: 10px;
+}
+}

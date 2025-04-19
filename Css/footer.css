@@ -1,0 +1,73 @@
+.news-1 h6
+{
+    font-size: 1.1rem;
+}
+.news-1 p{
+    font-size: 1.1rem;
+}
+.news-2 p
+{
+    font-size: 1.1rem;
+   line-height: 2rem ;
+}
+.news-input
+{
+    font-size: 1.1rem;
+}
+
+
+.down-footer h5
+{
+    font-family: 'B Titr';
+    font-size: 1.1rem;
+    border-bottom: 2px solid blueviolet;
+    padding-bottom: 5px;
+    display: inline-flex ;
+}
+.footer-nav li a
+{
+    font-size: 1.1rem;
+    color: #000000;
+    transition: 0.5s ease;
+}
+.footer-text
+{
+    font-size: 1.1rem;
+
+}
+.footer-nav li a:hover
+{
+    color: #8f8d8d;
+}
+.about-us p:hover
+{
+    color: #8f8d8d;
+}
+.social-icon ul li a i
+{
+color: #6b6a6a;
+transition: 0.5s ease;
+font-size: 25px;
+}
+.social-icon .insta
+{
+    color: rgb(199, 0, 86);
+}
+.social-icon .fa-telegram
+{
+    color: royalblue;
+}
+.social-icon .whatsapp
+{
+    color: rgb(49, 236, 67);
+}
+
+.bg-footer
+ {
+    background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;
+}
+.down-footer img
+{
+    aspect-ratio: 1;
+    object-fit: contain;
+}

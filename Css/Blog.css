@@ -1,0 +1,38 @@
+.blog-detail
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-blog img
+{
+aspect-ratio: 1;
+object-fit: contain;
+}
+.card-title
+{
+    font-size: 1.3rem;
+}
+.card-text
+{
+    text-align: justify;
+}
+.blog-detail
+{
+    font-size: 17px;
+}
+.btn-trend:hover
+{
+    background-color: #fda33c !important;
+
+}
+.btn-jeans:hover
+{
+    background-color: #4169a4 !important;
+
+}
+.btn-coat:hover
+{
+    background-color: #009261 !important;
+
+}

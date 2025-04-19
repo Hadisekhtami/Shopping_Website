@@ -1,0 +1,30 @@
+.shipping-wrapper img
+{
+    width: 48px;
+    height: 48px;
+}
+
+.shipping-wrapper div
+{
+    padding: 10px;
+    width: 100px;
+    line-height: 2rem;
+    
+}
+.shipping
+{
+background-color:rgba(95, 10, 95, 0.7)!important;
+
+}
+.shipping-text{
+  font-size: 1.2rem!important;
+}
+
+@media screen and (max-width: 600px)
+{
+  .content-shipping{
+  margin-right: 30%!important;
+
+  }   
+}
+  

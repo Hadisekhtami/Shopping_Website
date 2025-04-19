@@ -1,0 +1,44 @@
+.slider
+{
+  margin-top:250px!important;
+}
+
+.custom-col-lg-3
+{
+flex: 0 0 28.0%;
+
+/* flex-grow: 0; ک آیتم چقد میتونه رشد ( بزرگ شدن ) داشته باشه نسبت به بقیه آیتم های موجود در فلکس باکس.
+flex-shrink: 0;  میتوان مشخص کرد که یک آیتم چقد میتونه رشد کمتری ( کوچکتر ) بشه، نسبت به بقیه آیتم های موجود در فلکس باکس.
+flex-basis: 0; اندازه طول اولیه / پایه یک آیتم از فلکس را مشخص و یا تعریف کرد،*/
+max-width:28.45%; 
+
+} 
+.carousel-caption 
+{
+  font-family: 'B Titr';
+}
+/* @media (min-width: 1200px) 
+{
+  .container,.container-sm,.container-md,.container-lg,.container-xl{
+    max-width: 1420px!important;
+  }
+} */
+@media screen and (max-width:991px)
+{
+  .custom-col-lg-3
+{
+flex: 0 0 50%;
+max-width:50%;
+}
+.left-side img
+{
+  float:left;
+}
+}
+@media screen and (max-width:990px)
+{
+  .mt-cu-pic
+{
+margin-top: 10px;
+}
+}

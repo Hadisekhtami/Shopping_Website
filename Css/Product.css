@@ -1,0 +1,31 @@
+/* MAin Product */
+.card-img-top:hover
+{
+    box-shadow: 0 0 10px 1px #ccc;
+}
+
+@media screen and (max-width: 600px)
+{
+  .card-blog
+  {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 990px)
+{
+  .products
+  {
+    max-width: fit-content !important;
+  }
+  .quantity
+  {
+    visibility: hidden;
+  }
+  .btn-cart
+  {
+    margin-left: 50% !important;
+  }
+}
+
+

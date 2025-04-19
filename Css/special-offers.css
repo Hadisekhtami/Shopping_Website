@@ -1,0 +1,250 @@
+.cus-nav-tabs  .nav-link:hover,.cus-nav-tabs  .nav-link:focus
+{
+color: blueviolet !important; ; 
+box-shadow: 0 0 1#ccc;   
+}
+.cus-nav-tabs button
+{
+    font-size: 1.2rem!important;
+    color: black;
+
+}
+.offer-rating i
+{
+    color:#e5e500 ;
+    font-size: 16px;
+}
+.offer-price s
+{
+color: red;
+padding-left: 20px;
+font-size: 1rem;
+text-wrap: nowrap;
+}
+
+.offer-price span
+{
+
+font-size: 1.1rem;
+text-wrap: nowrap;
+}
+
+.offer-details .count-down-number #demo span
+{
+background-color: rgba(138, 33, 236,0.6);
+margin: 5px;
+width: 40px;
+height: 40px;
+/* display:inline-block; */
+border-radius:100%;
+}
+
+
+.count-down-number #demo #day,.count-down-number #demo #hour,.count-down-number #demo #minute,.count-down-number #demo #second
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.count-down-number #demoo #day,.count-down-number #demoo #hour,.count-down-number #demoo #minute,.count-down-number #demoo #second
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.offer-expire-text
+{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.offer-expire-text-inner
+{
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+
+
+#offer-expire-text
+{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+   
+
+}
+/* #offer-expire-text-inner
+{
+    padding: 10px;
+    font-size: 17px;
+} */
+
+#day
+{
+    position: relative;
+}
+#demo #day::after
+{
+    content: 'روز';
+    position: absolute;
+    top: 40px;
+    right:10px;
+}
+#demoo #day::after
+{
+    content: 'روز';
+    position: absolute;
+    top: 40px;
+    right:10px;
+}
+#hour
+{
+    position: relative;
+}
+#demo #hour::after
+{
+    content: 'ساعت';
+    position: absolute;
+    top: 40px;
+    right:8px;
+}
+#demoo #hour::after
+{
+    content: 'ساعت';
+    position: absolute;
+    top: 40px;
+    right:8px;
+}
+#minute
+{
+    position: relative;
+}
+#demo #minute::after
+{
+    content: 'دقیقه';
+    position: absolute;
+    top: 40px;
+    right:5px;
+}
+#demoo #minute::after
+{
+    content: 'دقیقه';
+    position: absolute;
+    top: 40px;
+    right:5px;
+}
+#second
+{
+    position: relative;
+}
+#demo #second::after
+{
+    content: 'ثانیه';
+    position: absolute;
+    top: 40px;
+    right:10px;
+}
+#demoo #second::after
+{
+    content: 'ثانیه';
+    position: absolute;
+    top: 40px;
+    right:10px;
+}
+
+#demo
+{
+    float: right;
+}
+
+#demoo
+{
+    float: right;
+}
+.demos
+{
+    font-size: 1rem;
+}
+.offer-product-image
+{
+    height: 240px;
+    overflow: hidden;
+}
+.offer-product-image img{
+    width: 240px;
+}
+ .offer-product-image:hover .frist-img ,.offer-product-image:hover .second-img
+{
+    transform: translateY(-240px);
+
+}
+.offer-product-image .frist-img ,.offer-product-image .second-img
+{
+    transition: .8s ease;
+}
+
+.offer-title
+{
+    right: 0;
+    border-bottom: 2px double blueviolet;
+    padding-bottom: 10px;
+    font-family: 'B Titr';
+    font-size: 1.4rem;
+}
+.boxshadow-offer
+{
+    box-shadow: 0  0 2px 1px #efefef;
+}
+.offer-details
+{
+font-size: 1.2rem;
+font-weight: lighter!important;
+}
+
+@media screen and (max-width: 600px)
+{
+    .cus-nav-tabs button
+    {
+        font-size: 1.1rem!important;
+    }
+    .offer-title
+{
+    padding-bottom: 15px;
+    font-family: 'B Titr';
+    font-size: 1.1rem;
+}
+}
+@media screen and (max-width: 600px)
+{
+    .offer-product-image
+    {
+        
+        height: 155px;
+        overflow: hidden;
+    }
+    .offer-product-image img{
+        width: 155px;
+    }
+    .offer-product-image:hover .frist-img ,.offer-product-image:hover .second-img
+    {
+        transform: translateY(-155px);
+    }
+    .offer-details
+{
+font-size: 1.1rem;
+}
+
+}

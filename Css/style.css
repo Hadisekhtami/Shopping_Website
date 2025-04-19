@@ -1,0 +1,90 @@
+@import 'slider.css';
+@import 'Top_nav_menu.css';
+@import 'shipping.css';
+@import 'category.css';
+@import 'special-offers.css';
+@import 'banner-nav.css';
+@import 'footer.css';
+@import 'Product.css';
+@import 'product-detail.css';
+@import 'Blog-detail.css';
+@import 'Blog.css';
+
+
+@font-face {
+  font-family:'B Nazanin' ;
+  src: url('../Font/B-NAZANIN.TTF') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family:'B Titr' ;
+  src: url('../Font/B\ Titr.ttf') format('truetype');
+  font-style: normal;
+}
+
+*,body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'B Nazanin';
+}
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+li,ol,ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* breadcrumb */
+.cus-breadcrumb
+{
+    margin: 0;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+/* جزییات محصولات */
+.detail-product
+{
+    font-size: 18px;
+    line-height: 2em;
+}
+.product-detail-title .fa-heart
+{
+color: red;
+}
+.detail-product  li  a i 
+{
+color: darkcyan;
+font-size: 8px;
+margin: 2px;
+}
+.cus-nav-tabpane
+{
+font-size: 18px;
+}
+.cus-nav-tabpane .nav-link.active
+{
+border-top: 2px solid red;
+}
+/* map */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:-1px;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+

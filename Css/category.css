@@ -1,0 +1,57 @@
+
+.categories p{
+    font-size: 1rem;
+    color: blueviolet;
+}
+.category-h
+{
+    transition: 0.6s ease;
+    text-wrap: nowrap;
+
+}
+.category-h:hover
+{
+    box-shadow: 0 0 5px 1px #ccc;
+    padding: 10px;
+}
+hr.style-eight {
+    overflow: visible; 
+    border-top:  double blueviolet;
+    color: blueviolet;
+    text-align: center;
+    opacity: 1; 
+}
+hr.style-eight:after {
+    content: "دسته بندی بر اساس خرید";
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    padding: 0 15px;
+    background: white;
+    font-family: 'B Titr';
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 600px)
+{
+    .categories p
+    {
+    font-size: 1.3rem;
+    }   
+    .wrapper-category
+    {
+    width: 400px!important;
+    }   
+   
+}
+@media screen and (max-width: 760px)
+{
+    .categories p
+    {
+    font-size: 1.2rem;
+    }  
+    .wrapper-category
+    {
+    width: 400px!important;
+    }    
+}
